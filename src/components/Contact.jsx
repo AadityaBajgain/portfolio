@@ -42,18 +42,18 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50" id="contact">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50" id="contact">
+      <div className="max-w-lg sm:max-w-xl lg:max-w-2xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 lg:mb-10 text-gray-800">
           Get In Touch
         </h2>
         
         <form ref={form} onSubmit={sendEmail} 
-          className="space-y-6 bg-white p-6 rounded-lg shadow-lg">
+          className="space-y-4 sm:space-y-6 bg-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-lg">
           
-          <div className="space-y-1.5">
+          <div className="space-y-1 sm:space-y-2">
             <label htmlFor="name" 
-              className="block text-sm font-medium text-gray-700">
+              className="block text-sm lg:text-base font-medium text-gray-700">
               Name
             </label>
             <input
@@ -62,7 +62,7 @@ const Contact = () => {
               name="user_name"
               required
               placeholder="Your name"
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900 placeholder-gray-400 outline-none transition duration-200"
+              className="w-full px-3 py-2 sm:py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-gray-900 text-sm sm:text-base placeholder-gray-400 outline-none transition duration-200"
             />
           </div>
           
@@ -97,7 +97,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition duration-150 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            className="w-full px-4 py-2 sm:py-3 text-sm sm:text-base font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 transition duration-150 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             {status === 'sending' ? (
               <span className="flex items-center justify-center">
