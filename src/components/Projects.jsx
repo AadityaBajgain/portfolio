@@ -20,7 +20,7 @@ const Projects = () => {
         </div>
       </div>
     </a>
-    <a href='https://github.com/BarsatKhadka/PrepAI' className='w-[80vw] sm:w-[45%] lg:w-[30%] transition-transform duration-300 hover:scale-105'>
+    <a href='https://github.com/BarsatKhadka/PrepAI' className='w-[80vw] sm:w-[45%] lg:w-[30%] transition-transform duration-300 hover:scale-100'>
       <div className='h-[40vh] border-2 border-slate-200 rounded-lg relative group'>
         <div className="absolute inset-0 flex items-center justify-center">
           <h3 className="text-gray-600 text-2xl font-bold">PrepAI</h3>
