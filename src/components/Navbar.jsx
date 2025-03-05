@@ -65,13 +65,13 @@ const Navbar = () => {
                     </ul>
 
                     
-                    <a href="https://github.com/AadityaBajgain"><div className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md">
+                    <a className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md" href="https://github.com/AadityaBajgain"><div >
                         <span className="text-sm">GitHub</span>
                         <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
                     </div></a>
 
 
-                    <a href="https://www.linkedin.com/in/aadityabajgain/"><div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
+                    <a className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md" href="https://www.linkedin.com/in/aadityabajgain/"><div >
                         <span className="text-sm">LinkedIn</span>
                         <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
                     </div></a>
