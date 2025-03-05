@@ -38,16 +38,16 @@ const Navbar = () => {
                 <div className="hidden md:flex flex-col justify-center items-center gap-4 mt-4 h-[7rem] bg-[#f1f1f1] rounded-md lg:hidden">
 
 
-                    <div className="flex gap-2 w-full items-center justify-center cursor-pointer ">
-                        <a href="https://github.com/AadityaBajgain"><span className="text-sm">GitHub</span></a>
+                    <a href="https://github.com/AadityaBajgain"><div className="flex gap-2 w-full items-center justify-center cursor-pointer ">
+                       =<span className="text-sm">GitHub</span>
                         <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
-                    </div>
+                    </div></a>
 
 
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer">
-                        <a href="https://www.linkedin.com/in/aadityabajgain/"><span className="text-sm">LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/in/aadityabajgain/"><div className="flex w-full gap-2 items-center justify-center cursor-pointer">
+                        <span className="text-sm">LinkedIn</span>
                         <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
-                    </div>
+                    </div></a>
 
 
                     <div className="flex w-full gap-2 items-center justify-center cursor-pointer ">
