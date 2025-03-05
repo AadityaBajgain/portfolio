@@ -12,22 +12,20 @@ const Navbar = () => {
         <>
             <div className='flex justify-between'>
                 <div className='mx-3'>
-                    <img src={logo} className='w-[5rem]'/>
+                    <img src={logo} className='w-[5rem]' />
                 </div>
 
                 <div className='flex justify-between items-center mx-3'>
 
-                    <ul className='hidden md:flex text-[1rem] gap-2 mr-7' >
+                    <ul className='hidden md:flex text-[1rem] gap-2 mr-4' >
                         <li><Link to="about" smooth={true} duration={500} className='cursor-pointer'>About Me</Link></li>
                         <li><Link to="projects" smooth={true} duration={500} className='cursor-pointer'>Projects</Link></li>
                         <li><Link to="contact" smooth={true} duration={500} className='cursor-pointer'>Contact</Link></li>
                     </ul>
                     <div className='hidden lg:flex'>
-                        <div className='flex gap-2 mr-8'>
-                            <img className="w-6 cursor-pointer" src={git} alt="git" />
-                            <img className="w-6 cursor-pointer" src={linkedIn} alt="In" />
-                        </div>
-                        <div>
+                        <div className='mx-1'><a href="https://github.com/AadityaBajgain"><img className="w-6 cursor-pointer" src={git} alt="git" /></a></div>
+                        <div className='mx-1'><a href="https://www.linkedin.com/in/aadityabajgain/"><img className="w-6 cursor-pointer" src={linkedIn} alt="In" /></a></div>
+                        <div className='mx-1'>
                             <span className='flex align-bottom'>Resume</span>
                         </div>
                     </div>
@@ -40,19 +38,19 @@ const Navbar = () => {
                 <div className="hidden md:flex flex-col justify-center items-center gap-4 mt-4 h-[7rem] bg-[#f1f1f1] rounded-md lg:hidden">
 
 
-                    <div className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md">
-                        <span className="text-sm">GitHub</span>
+                    <div className="flex gap-2 w-full items-center justify-center cursor-pointer ">
+                        <a href="https://github.com/AadityaBajgain"><span className="text-sm">GitHub</span></a>
                         <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
                     </div>
 
 
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
-                        <span className="text-sm">LinkedIn</span>
+                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer">
+                        <a href="https://www.linkedin.com/in/aadityabajgain/"><span className="text-sm">LinkedIn</span></a>
                         <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
                     </div>
 
 
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
+                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer ">
                         <span className="text-sm">Resume</span>
                         <img className="w-5 h-5 mt-0.5 cursor-pointer" src={download} alt="Download Resume" />
                     </div>
