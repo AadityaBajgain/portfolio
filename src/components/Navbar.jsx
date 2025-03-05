@@ -64,16 +64,17 @@ const Navbar = () => {
                         <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer w-full hover:shadow-md text-center">Contact</Link></li>
                     </ul>
 
-                    <div className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md">
+                    
+                    <a href="https://github.com/AadityaBajgain"><div className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md">
                         <span className="text-sm">GitHub</span>
                         <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
-                    </div>
+                    </div></a>
 
 
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
+                    <a href="https://www.linkedin.com/in/aadityabajgain/"><div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
                         <span className="text-sm">LinkedIn</span>
                         <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
-                    </div>
+                    </div></a>
 
 
                     <div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
