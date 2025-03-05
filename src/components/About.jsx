@@ -7,8 +7,8 @@ import tools from '../assets/tools.png'
 
 const About = () => {
   return (
-    <div className='w-full h-full'>
-      <div className='w-full bg-[#5BE9B9] min-h-[70vh] px-4 md:px-8 lg:px-16 py-12 md:py-16 lg:py-20'>
+    <div className='w-full h-full '>
+      <div className='w-full bg-[#5BE9B9] px-4 md:px-8 lg:px-16 pt-12 pb-32 md:pt-16 md:pb-36 lg:pt-20 lg:pb-40'>
         <h1 className='text-2xl sm:text-3xl lg:text-4xl text-[#00332A] font-bold max-w-4xl mx-auto'>
           Hi, I'm Aaditya Bajgain. Nice to meet you.
         </h1>
@@ -17,9 +17,9 @@ const About = () => {
         </p>
       </div>
 
-      <div className='bg-white w-[95%] sm:w-[90%] mx-auto mt-[-3rem] sm:mt-[-5rem] md:mt-[-7rem] lg:mt-[-9rem] rounded-xl shadow-xl'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 p-4 sm:p-6 lg:p-8'>
-          <div className='text-[#00332A] border-b md:border-b-0 md:border-r border-gray-200 pb-6 md:pb-0'>
+      <div className='bg-white w-[90%] mx-auto mt-[-6rem] md:mt-[-8rem] lg:mt-[-6rem] rounded-xl shadow-xl'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 p-8'>
+          <div className='text-[#00332A] border-b md:border-b-0 md:border-r border-gray-200 pb-6 md:pb-0 md:pr-6'>
             <img className='w-16 sm:w-20 lg:w-24 mx-auto pt-4' src={frontend} alt="Frontend" />
             <h2 className='text-2xl sm:text-3xl font-bold text-[#6E07F3] mt-4'>Frontend</h2>
             <ul className='mt-4 space-y-2 text-sm sm:text-base'>
@@ -32,7 +32,7 @@ const About = () => {
             </ul>
           </div>
 
-          <div className='text-[#00332A] border-b md:border-b-0 md:border-r border-gray-200 pb-6 md:pb-0'>
+          <div className='text-[#00332A] border-b md:border-b-0 md:border-r border-gray-200 pb-6 md:pb-0 md:pr-6'>
             <img className='w-16 sm:w-20 lg:w-24 mx-auto pt-4' src={backend} alt="Backend" />
             <h2 className='text-2xl sm:text-3xl font-bold text-[#6E07F3] mt-4'>Backend</h2>
             <ul className='mt-4 space-y-2 text-sm sm:text-base'>
