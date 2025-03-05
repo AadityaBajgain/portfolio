@@ -35,53 +35,72 @@ const Navbar = () => {
                 </div>
             </div>
             {isMenuOpen &&
-                <div className="hidden md:flex flex-col justify-center items-center gap-4 mt-4 h-[7rem] bg-[#f1f1f1] rounded-md lg:hidden">
+                <div className="hidden md:flex flex-col justify-center items-center gap-1 mt-4 h-[7rem] bg-[#f1f1f1] rounded-md lg:hidden">
+                    <a href="https://github.com/AadityaBajgain" className="w-full">
+                        <div className="flex gap-2 items-center justify-center cursor-pointer hover:bg-gray-200 py-2">
+                            <span className="text-sm">GitHub</span>
+                            <img className="w-6" src={git} alt="GitHub Icon" />
+                        </div>
+                    </a>
 
+                    <a href="https://www.linkedin.com/in/aadityabajgain/" className="w-full">
+                        <div className="flex gap-2 items-center justify-center cursor-pointer hover:bg-gray-200 py-2">
+                            <span className="text-sm">LinkedIn</span>
+                            <img className="w-6" src={linkedIn} alt="LinkedIn Icon" />
+                        </div>
+                    </a>
 
-                    <a href="https://github.com/AadityaBajgain"><div className="flex gap-2 w-full items-center justify-center cursor-pointer ">
-                       =<span className="text-sm">GitHub</span>
-                        <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
-                    </div></a>
-
-
-                    <a href="https://www.linkedin.com/in/aadityabajgain/"><div className="flex w-full gap-2 items-center justify-center cursor-pointer">
-                        <span className="text-sm">LinkedIn</span>
-                        <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
-                    </div></a>
-
-
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer ">
-                        <span className="text-sm">Resume</span>
-                        <img className="w-5 h-5 mt-0.5 cursor-pointer" src={download} alt="Download Resume" />
-                    </div>
+                    <a href="/your-resume.pdf" download className="w-full">
+                        <div className="flex gap-2 items-center justify-center cursor-pointer hover:bg-gray-200 py-2">
+                            <span className="text-sm">Resume</span>
+                            <img className="w-5 h-5" src={download} alt="Download Resume" />
+                        </div>
+                    </a>
                 </div>
             }
+
             {isMenuOpen &&
-                <div className="flex flex-col justify-center items-center gap-4 mt-4 h-[15rem] bg-[#f1f1f1] rounded-md md:hidden">
-                    <ul className="flex flex-col gap-2 w-full items-center md:hidden">
-                        <li><Link to="about" smooth={true} duration={500} className="cursor-pointer w-full hover:shadow-md text-center">About Me</Link></li>
-                        <li><Link to="projects" smooth={true} duration={500} className="cursor-pointer w-full hover:shadow-md text-center">Projects</Link></li>
-                        <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer w-full hover:shadow-md text-center">Contact</Link></li>
+                <div className="flex flex-col justify-center items-center gap-1 mt-4 h-[15rem] bg-[#f1f1f1] rounded-md md:hidden">
+                    <ul className="flex flex-col w-full items-center md:hidden">
+                        <li className="w-full hover:bg-gray-200 py-2 text-center cursor-pointer">
+                            <Link to="about" smooth={true} duration={500} className="block w-full">
+                                About Me
+                            </Link>
+                        </li>
+                        <li className="w-full hover:bg-gray-200 py-2 text-center cursor-pointer">
+                            <Link to="projects" smooth={true} duration={500} className="block w-full">
+                                Projects
+                            </Link>
+                        </li>
+                        <li className="w-full hover:bg-gray-200 py-2 text-center cursor-pointer">
+                            <Link to="contact" smooth={true} duration={500} className="block w-full">
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
 
-                    
-                    <a className="flex gap-2 w-full items-center justify-center cursor-pointer hover:shadow-md" href="https://github.com/AadityaBajgain"><div >
-                        <span className="text-sm">GitHub</span>
-                        <img className="w-6 cursor-pointer" src={git} alt="GitHub Icon" />
-                    </div></a>
+                    <a href="https://github.com/AadityaBajgain" className="w-full">
+                        <div className="flex gap-2 items-center justify-center hover:bg-gray-200 py-2">
+                            <span className="text-sm">GitHub</span>
+                            <img className="w-6" src={git} alt="GitHub Icon" />
+                        </div>
+                    </a>
 
+                    <a href="https://www.linkedin.com/in/aadityabajgain/" className="w-full">
+                        <div className="flex gap-2 items-center justify-center hover:bg-gray-200 py-2">
+                            <span className="text-sm">LinkedIn</span>
+                            <img className="w-6" src={linkedIn} alt="LinkedIn Icon" />
+                        </div>
+                    </a>
 
-                    <a className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md" href="https://www.linkedin.com/in/aadityabajgain/"><div >
-                        <span className="text-sm">LinkedIn</span>
-                        <img className="w-6 cursor-pointer" src={linkedIn} alt="LinkedIn Icon" />
-                    </div></a>
-
-
-                    <div className="flex w-full gap-2 items-center justify-center cursor-pointer hover:shadow-md">
-                        <span className="text-sm">Resume</span>
-                        <img className="w-5 h-5 mt-0.5 cursor-pointer" src={download} alt="Download Resume" />
-                    </div>
+                    <a href="/your-resume.pdf" download className="w-full">
+                        <div className="flex gap-2 items-center justify-center hover:bg-gray-200 py-2">
+                            <span className="text-sm">Resume</span>
+                            <img className="w-5 h-5" src={download} alt="Download Resume" />
+                        </div>
+                    </a>
                 </div>
+
             }
         </>
     )
