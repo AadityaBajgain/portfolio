@@ -13,7 +13,7 @@ const About = () => {
           Hi, I'm Aaditya Bajgain. Nice to meet you.
         </h1>
         <p className='text-sm sm:text-base lg:text-xl text-[#00332A] mt-4 md:mt-6 lg:mt-8 max-w-4xl mx-auto leading-relaxed'>
-        Hi, I'm Aaditya Bajgain, a software development enthusiast currently studying at Cerritos College. With a strong passion for AI and full-stack development, I enjoy building intuitive applications using Python, React, and various modern technologies. I'm always eager to learn, collaborate, and explore innovative solutions that push the boundaries of technology. Let’s connect and build something impactful!
+        A software development enthusiast currently studying at Cerritos College. With a strong passion for AI and full-stack development, I enjoy building intuitive applications using Python, React, and various modern technologies. I'm always eager to learn, collaborate, and explore innovative solutions that push the boundaries of technology. Let’s connect and build something impactful!
         </p>
       </div>
 
