@@ -13,7 +13,7 @@ const About = () => {
           Hi, I'm Aaditya Bajgain. Nice to meet you.
         </h1>
         <p className='text-sm sm:text-base lg:text-xl text-[#00332A] mt-4 md:mt-6 lg:mt-8 max-w-4xl mx-auto leading-relaxed'>
-          With a foundation in MERN stack development and a strong belief in hands-on, step-by-step learning, I love building practical, user-focused web applications. My goal is to constantly grow as a developer while creating impactful solutions. When I'm not coding, you can find me exploring new technologies or brainstorming creative ideas to bring projects to life. Welcome to my portfolio—let's create something amazing together!
+        Hi, I'm Aaditya Bajgain, a software development enthusiast currently studying at Cerritos College. With a strong passion for AI and full-stack development, I enjoy building intuitive applications using Python, React, and various modern technologies. I'm always eager to learn, collaborate, and explore innovative solutions that push the boundaries of technology. Let’s connect and build something impactful!
         </p>
       </div>
 
