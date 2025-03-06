@@ -9,7 +9,7 @@ const Projects = () => {
       <div className='h-[30vh] sm:h-[40vh] border-2 border-slate-200 rounded-lg relative group overflow-hidden'>
         <img className="w-full h-full object-cover blur-[2px] group-hover:blur-[4px] transition-all" src={moneymap} alt="MoneyMap" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h3 className="text-gray-600 text-2xl font-bold z-10">MoneyMap</h3>
+          <h3 className="text-blue-300 text-2xl font-bold z-10">MoneyMap</h3>
         </div>
       </div>
     </a>
@@ -17,7 +17,7 @@ const Projects = () => {
       <div className='h-[30vh] sm:h-[40vh] border-2 border-slate-200  rounded-lg relative group'>
       <img className="w-full h-full object-cover blur-[2px] group-hover:blur-[4px] transition-all" src={ytClone} alt="Youtube Clone" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h3 className="text-gray-600 text-2xl font-bold">Youtube Clone</h3>
+          <h3 className="text-blue-300 text-2xl font-bold">Youtube Clone</h3>
         </div>
       </div>
     </a>
@@ -25,7 +25,7 @@ const Projects = () => {
       <div className='h-[30vh] sm:h-[40vh] border-2 border-slate-200 rounded-lg relative group'>
         <img className="w-full h-full object-cover blur-[2px] group-hover:blur-[4px] transition-all" src={prepai} alt="Youtube Clone" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <h3 className="text-gray-600 text-2xl font-bold">PrepAI</h3>
+          <h3 className="text-blue-300 text-2xl font-bold">PrepAI</h3>
         </div>
       </div>
     </a>
