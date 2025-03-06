@@ -23,8 +23,8 @@ const Projects = () => {
     </a>
     <a href='https://github.com/BarsatKhadka/PrepAI' className='w-[80vw] sm:w-[45%] lg:w-[30%] transition-transform duration-300 hover:scale-102'>
       <div className='h-[30vh] sm:h-[40vh] border-2 border-slate-200 rounded-lg relative group'>
-        <div className="absolute inset-0 flex items-center justify-center">
         <img className="w-full h-full object-cover blur-[2px] group-hover:blur-[4px] transition-all" src={prepai} alt="Youtube Clone" />
+        <div className="absolute inset-0 flex items-center justify-center">
           <h3 className="text-gray-600 text-2xl font-bold">PrepAI</h3>
         </div>
       </div>
