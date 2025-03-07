@@ -6,6 +6,8 @@ import download from "../assets/icons8-download-96.png"
 import hamburger from "../assets/icons8-hamburger-menu-480.png"
 import x from "../assets/x.png"
 import logo from "../assets/logo.png"
+import resume from '../assets/resume.pdf'
+
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
@@ -26,7 +28,9 @@ const Navbar = () => {
                         <div className='mx-1'><a href="https://github.com/AadityaBajgain"><img className="w-6 cursor-pointer" src={git} alt="git" /></a></div>
                         <div className='mx-1'><a href="https://www.linkedin.com/in/aadityabajgain/"><img className="w-6 cursor-pointer" src={linkedIn} alt="In" /></a></div>
                         <div className='mx-1'>
-                            <span className='flex align-bottom'>Resume</span>
+                            <a href={resume} download className='flex align-bottom'>
+                                <span>Resume</span>
+                            </a>
                         </div>
                     </div>
                     <img className="cursor-pointer w-6 h-5 lg:hidden"
@@ -50,7 +54,7 @@ const Navbar = () => {
                         </div>
                     </a>
 
-                    <a href="/your-resume.pdf" download className="w-full">
+                    <a href={resume} download className="w-full">
                         <div className="flex gap-2 items-center justify-center cursor-pointer hover:bg-gray-200 py-2">
                             <span className="text-sm">Resume</span>
                             <img className="w-5 h-5" src={download} alt="Download Resume" />
@@ -93,7 +97,7 @@ const Navbar = () => {
                         </div>
                     </a>
 
-                    <a href="/your-resume.pdf" download className="w-full">
+                    <a href={resume} download className="w-full">
                         <div className="flex gap-2 items-center justify-center hover:bg-gray-200 py-2">
                             <span className="text-sm">Resume</span>
                             <img className="w-5 h-5" src={download} alt="Download Resume" />
